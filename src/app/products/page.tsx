@@ -1,11 +1,15 @@
-export default function ProdctList() {
+export default function ProductList() {
   return (
     <>
-      <h1>Lorem, ipsum.</h1>
-      <h2>Lorem, ipsum.</h2>
-      <h3>Lorem, ipsum.</h3>
-      <h4>Lorem, ipsum.</h4>
-      <h5>Lorem, ipsum.</h5>
+      <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+        <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
+          <h1>product List</h1>
+          <h2>product List</h2>
+          <h3>product List</h3>
+          <h4>product List</h4>
+          <h5>product List</h5>
+        </main>
+      </div>
     </>
   );
 }
